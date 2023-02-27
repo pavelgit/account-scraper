@@ -1,0 +1,20 @@
+{
+  "name": "account-scraper",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "csv": "^5.3.1",
+    "egoroof-blowfish": "^2.2.1",
+    "prompt-async": "^0.9.9",
+    "puppeteer": "2.0.0",
+    "tmp": "^0.1.0"
+  },
+  "devDependencies": {
+    "jest": "26.6.3"
+  }
+}
